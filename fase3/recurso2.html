@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <LINK REL=StyleSheet HREF="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3, HtmlDesign</title>
+</head>
+<body>
+
+    <header>
+       <img src="img/logo1.jpg" alt="Imagen de logo" height="100" width="100">
+        <h1> Html: Estructura basica de Html</h1>
+        <img src="img/logo1.jpg" alt="Imagen de logo" height="100" width="100">
+    </header>
+       <!--Barra menu horizontal-->
+
+       <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="#">Temas</a> 
+                <ul class="dropdown">
+                    <li><a href="tema1.html">Tema 1</a> </li>
+                    <li><a href="tema2.html">Tema 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Digitales</a> 
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Recurso 1</a> </li>
+                    <li><a href="recurso2.html">Recurso 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a> 
+                <ul class="dropdown">
+                    <li><a href="actividad1.html">Actividad 1</a> </li>
+                    <li><a href="actividad2.html">Actividad 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Acerca de</a> 
+                <ul class="dropdown">
+                    <li><a href="autor.html">Autor</a> </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+     <!-- Seccion central-->
+
+     <div class="contenedor">
+                <aside>
+                    <h4>Fan Page UNAD Facebook::</h4>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2FUniversidadUNAD%2F%3F_rdc%3D1%26_rdr&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </aside>
+
+                <section>
+                 <h2>"Audio PodCast" Que es HTML?:</h3><br><br>
+                    <p>
+                        <audio controls>
+                            <source src="audio/que es html.mp3">
+                          </audio>
+                    </p>
+                    <img src="img/img01.jpg" alt="">
+
+                    <article>
+                        <br>
+                        <b><h2>La historia de HTML</b></h2>
+                        HTML fue inventado por Tim Berners-Lee, un físico del instituto de investigación CERN en Suiza. Se le ocurrió la idea de un sistema de hipertexto basado en Internet.
+
+                        Hipertexto significa un texto que contiene referencias (links) a otros textos a los que los usuarios pueden acceder de inmediato. Publicó la primera versión de HTML en 1991, que constaba de 18 etiquetas HTML. Desde entonces, cada nueva versión del lenguaje HTML viene con nuevas etiquetas y atributos (modificadores de etiqueta) para el marcado.
+
+                        Según la Referencia de elementos HTML de Mozilla Developer Network, actualmente hay 140 etiquetas HTML, aunque algunas de ellas ya están obsoletas (no son compatibles con los navegadores modernos).
+
+                        Debido a un rápido aumento de la popularidad, HTML ahora se considera un estándar web oficial. Las especificaciones de HTML son mantenidas y desarrolladas por el World Wide Web Consortium (W3C). Puedes consultar el último estado del lenguaje en cualquier momento en el sitio web de W3C.
+
+                        La actualización más importante del lenguaje fue la introducción de HTML5 en el 2014. Se agregaron varias etiquetas semánticas nuevas al marcado, que revelan el significado de su propio contenido, como *article>, *header> y *footer>.
+                        Ahora que entendemos el concepto de etiquetas, necesitamos poder identificarlas. Éstas se caracterizan porque van dentro de los caracteres menor que < y mayor que >, como en este ejemplo: *Aquí dentro va el nombre de la etiqueta>
+
+                            Aunque eso no es todo debido a que deben tener un inicio y un fin. El inicio de una etiqueta es normal, en otras palabras lleva los dos caracteres que mencioné anteriormente y dentro de estos se encuentra el nombre, sin embargo, existe una diferencia para el fin de la etiqueta ya que antes de escribir el nombre de la etiqueta debemos escribir una diagonal /. Como en este ejemplo:
+                            
+                            *Inicio de la etiqueta>
+                            /Fin de la etiqueta>
+                            <br>
+                            <br>
+                            <b>Etiquetas de bloque</b><br>
+                            Las tres etiquetas de nivel de bloque que todo documento HTML debe contener son <html>, <head> y <body>.
+
+                            La etiqueta <html> </html> es el elemento de más alto nivel que encierra a toda página HTML.
+                            La etiqueta <head> </head> contiene información meta como el título y el conjunto de caracteres de la página.
+                            Finalmente, la etiqueta <body> </body> encierra todo el contenido que aparece en la página.
+                    </article>
+            
+                   
+
+                </section>   
+
+        </div>
+                <!--Pie de Pagina-->
+
+                <footer>
+                    <p>
+                        Correo: aldrinmix0428@gmail.com <br>
+                        Whatsapp: 315-3096590 <br>
+                        Fecha de actualización: 22 de Junio de 2021
+                    </p>
+                </footer>
+</body>
+</html>

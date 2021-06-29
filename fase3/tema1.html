@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <LINK REL=StyleSheet HREF="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3, HtmlDesign</title>
+</head>
+<body>
+
+    <header>
+       <img src="img/logo1.jpg" alt="Imagen de logo" height="100" width="100">
+        <h1> Html: Estructura basica de Html</h1>
+        <img src="img/logo1.jpg" alt="Imagen de logo" height="100" width="100">
+    </header>
+       <!--Barra menu horizontal-->
+
+       <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a> </li>
+            <li><a href="#">Temas</a> 
+                <ul class="dropdown">
+                    <li><a href="tema1.html">Tema 1</a> </li>
+                    <li><a href="tema2.html">Tema 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Digitales</a> 
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Recurso 1</a> </li>
+                    <li><a href="recurso2.html">Recurso 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a> 
+                <ul class="dropdown">
+                    <li><a href="actividad1.html">Actividad 1</a> </li>
+                    <li><a href="actividad2.html">Actividad 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Acerca de</a> 
+                <ul class="dropdown">
+                    <li><a href="autor.html">Autor</a> </li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+
+     <!-- Seccion central-->
+
+     <div class="contenedor">
+                <aside>
+                    <h4>Estructura de HTML:</h4>
+                    <iframe src="img/imagen1.png" width="344" height="374">
+                    </iframe>
+                </aside>
+
+                <section>
+                 <h3>Empezar con HTML</h3>
+                    <p>
+                        Cubre las bases absolutas de HTML, para que puedas empezar — definimos elementos, atributos, y todas los otros términos importantes que puedas haber escuchado, y en donde encajan en el lenguaje. También mostramos cómo está estructurado un elemento HTML, cómo está estructurada una página HTML típica, y explica otras características importantes. En el camino, vamos a tener un juego con algo de HTML, ¡para alimentar tu intereses!
+                    </p>
+                    <img src="img/img01.jpg" alt="">
+
+                    <article>
+                        <h4>Que es HTML ?</h4>
+                        <p>
+                            HTML ("Hypertext Markup Language") no es un lenguaje de programación. 
+                            Es un lenguaje de marcado que le dice a los navegadores web cómo estructurar las 
+                            páginas web que estás visitando. Puede ser tan complejo o tan simple como desee el 
+                            desarrollador web. El HTML consiste en una serie de elementos, que puedes utilizar para 
+                            encerrar, delimitar o marcar diferentes partes del contenido para hacer que aparezcan de 
+                            una cierta manera, o actúen de determinada forma. Las etiquetas que delimitan un fragmento de 
+                            contenido pueden hacer que dicho contenido enlace con otra página, ponga una palabra en cursiva, 
+                            etcétera. Por ejemplo, dada la siguiente línea de contenido:
+                            <br>
+                            <b>Mi gato es muy gruñón</b>
+                            <br><br>
+                     </p>
+                    </article>
+
+                    <article>
+                        <h4>Anatomía de un elemento HTML:</h4>
+                        <p>
+                            <img src="img/img1.jpg" alt="Imagen de logo" height="60%" width="60%">
+                            <br>
+                            <b>Las principales partes de nuestro elemento son:</b><br><br>
+
+                         <b>La etiqueta de apertura:</b> consiste en el nombre del elemento (en este caso, p), encerrado entre paréntesis angulares de apertura y cierre. Esta etiqueta de apertura marca dónde comienza el elemento o comienza a tener efecto. En este ejemplo, precede al comienzo del texto del párrafo.
+                         <br><b>El contenido:</b> Este es el contenido del elemento. En este ejemplo, es el texto del párrafo.
+                         <br><b>La etiqueta de cierre:</b> Es lo mismo que la etiqueta de apertura, excepto que incluye una barra diagonal antes del nombre del elemento. Esto indica dónde termina el elemento; en este caso, dónde finaliza el párrafo. No incluir una etiqueta de cierre es un error común de principiante, y puede conducir a extraños resultados.
+                         El elemento lo conforman la etiqueta de apertura, seguida del contenido, seguido de la etiqueta de cierre.
+                        </p>
+                    </article>
+
+                    <article>
+                        <p>
+                        background = archivo. Establece como fondo de la página la imagen especificada en el archivo.<br>
+                        bgcolor = color. Establece un color de fondo para la página.<br>
+                        text = color. Este atributo establece el color del texto<br>
+                        link = color. Este atributo establece el color del texto de los vínculos no visitados<br>
+                        vlink = color. Este atributo especifica el color del texto que de los vínculos visitados<br>
+                        alink = color. Este atributo especifica el color del texto que de los vínculos cuando son seleccionados por el usuario.<br><article>
+                        </p>
+                    </article>
+
+                    <article>
+                        <h4>El elemento META: </h4>
+                        <p>
+                        Este elemento se sitúa dentro de la cabecera "< HEAD >", y con él se puede dar información sobre el documento. Sus atributos son:                </p>
+                    </article>
+
+                    <article>
+                        name = nombre. Este atributo identifica un nombre de propiedad.<br>
+                        content = cadena de caracteres. Este atributo especifica el valor de una propiedad.<br>
+                        scheme = cadena de caracteres. Este atributo especifica un esquema que se usará para interpretar el valor de la propiedad<br>
+                        http-equiv = nombre. Este atributo puede utilizarse en lugar del atributo name. Los servidores HTTP utilizan este atributo para obtener información sobre los encabezados del mensaje de respuesta HTTP.<br>
+                        lang = cdata. Este atributo se usa para especificar un idioma.<br>
+                    </article>
+            
+                   
+
+                </section>   
+
+        </div>
+                <!--Pie de Pagina-->
+
+                <footer>
+                    <p>
+                        Correo: aldrinmix0428@gmail.com <br>
+                        Whatsapp: 315-3096590 <br>
+                        Fecha de actualización: 22 de Junio de 2021
+                    </p>
+                </footer>
+</body>
+</html>
