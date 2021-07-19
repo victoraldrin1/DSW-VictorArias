@@ -1,0 +1,101 @@
+*{
+    margin: 5px;
+    border-radius: 3px;
+}
+
+header{
+    background-color: rgb(240, 237, 243);
+    text-align: center;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s1{
+    grid-column: 1/2;
+    background-color: white;
+    text-align: justify;
+}
+
+.s1 h3{
+    text-align: center;
+}
+
+.s2{
+    grid-column: 2;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    background-color: lightgray;
+}
+
+nav ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.menu li{
+    width: 100%;
+    text-align: center;
+}
+
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: gray;
+    height: 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.dropdown li{
+    display: none;
+}
+
+.menu li:hover .dropdown li{
+    display: block;
+}
+
+.menu a:hover{
+    background-color: yellow;
+}
+
+footer{
+    text-align: center;
+    background-color: darkgrey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.figura1{
+    text-align: center;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+}
+
+.podcast_img{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.s1 h4{
+    text-align: center;
+}
+
+.foto{
+    text-align: center;
+}

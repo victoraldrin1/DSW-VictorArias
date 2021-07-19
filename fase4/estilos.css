@@ -1,0 +1,70 @@
+*{
+    margin: 5px;
+    border-radius: 10px;
+}
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+aside{
+    grid-column: 1/2;
+    background-color: darkgrey;
+}
+section{
+    grid-column: 2/5;
+    background-color: darkgrey;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.justificado{
+    text-align: justify;
+}
+.centrado{
+    text-align: center;
+}
+.color{
+    color: tomato;
+}
+/* Seccion de estilos para el menu*/
+.menu{
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+    color: white;
+    background: black;
+}
+.menu li{
+    width: 100%;
+    text-align: center;
+}
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: chocolate;
+    height: 25px;
+    text-decoration: none;
+}
+.dropdown li{
+    display: none;
+}
+.menu li:hover .dropdown li{
+    display: block; 
+}
+.menu a:hover {
+    background: blue;
+    color: white;
+}
